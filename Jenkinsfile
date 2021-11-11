@@ -10,7 +10,7 @@ pipeline {
         stage("build") {
             steps {
                 echo " building the application.."
-		echo " building the version $(NEW_VERSION)"
+		echo " building the version $NEW_VERSION"
             }
         }
         stage("test") {
